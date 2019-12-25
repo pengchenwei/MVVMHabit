@@ -1,0 +1,13 @@
+<templateSet group="AndroidComments">
+  <template name="mycomment" value="/**&#10; * &lt;pre&gt;&#10; *     @author :  pen&#10; *     @date :  $date$ &#10; *     @desc :  $todo$&#10; *&#10; * &lt;/pre&gt;&#10; */" description="添加我的类信息" toReformat="true" toShortenFQNames="true">
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="todo" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="COMPLETION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
