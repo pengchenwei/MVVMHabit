@@ -2,8 +2,8 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="bg_navi_code.xml" type="Native" />
-      <mapping ext="mp3" type="PLAIN_TEXT" />
       <mapping ext="epub" type="PLAIN_TEXT" />
+      <mapping ext="mp3" type="PLAIN_TEXT" />
       <mapping ext="jks" type="PLAIN_TEXT" />
       <mapping pattern="recommendation_music_video_recycle_item" type="XML" />
       <mapping pattern="bg_password_check_dialog" type="XML" />
